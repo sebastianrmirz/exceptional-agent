@@ -5,7 +5,7 @@ Tells you about every single exception thrown, caught or not, in your code.
 
 Building
 
-gcc -shared -fPIC main.cpp -o libagent.so -I /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/include/ -I /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/include/darwin/
+gcc -shared -fPIC main.cpp -o libagent.so -I $JAVA_HOME/include/ -I $JAVA_HOME/include/darwin/
 
 
 Running
